@@ -1,0 +1,267 @@
+.container{
+    height: 600px;
+    width: 80%;
+    margin-top: 150px;
+    margin-left: 15%;
+    border-color: gray;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+.room-image{
+    height: 100%;
+    border-radius: 20px;
+}
+.room-detail h2{
+    color: #fc6b13;
+    font-size: 50px;
+    margin-left: 30%;
+    width: 100%;
+}
+.price-for{
+    font-size: 35px;
+    margin-left: 20%;
+    margin-top: 20%;
+    width: 100%;
+}
+.bed-type{
+    font-size: 35px;
+    margin-left: 20%;
+    margin-top: 15px;
+    width: 100%;
+}
+.room-size{
+    font-size: 35px;
+    margin-left: 20%;
+    margin-top: 15px;
+    width: 100%;
+}
+.phone{
+    color: #fc6b13;
+    font-size: 30px; 
+    margin-left: 0px; 
+    font-weight: 600;
+
+}
+.contact-detail{
+    color: #fc6b13;
+    font-size: 40px; 
+    margin-top: 30px;
+}
+.for-color{
+    color: #fc6b13;
+}
+.call-to-book-btn{
+    background-color: #fc6b13;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-left: 150px;
+    width: 40%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+.call{
+    width: 70%;
+}
+header{
+    position: fixed;
+}
+.open-sidebar-btton, .close-sidebar-button{
+    padding-left: 5px;
+    padding-right: 100px;
+}
+
+@media(max-width: 1650px){
+.phone{
+    color: #fc6b13;
+    font-size: 30px; 
+    margin-left: 0px; 
+    font-weight: 600;
+}
+.contact-detail{
+    color: #fc6b13;
+    font-size: 40px; 
+    margin-top: 30px;
+
+}
+.room-detail h2{
+    color: #fc6b13;
+    font-size: 50px;
+    margin-left: 10%;
+    width: 100%;
+}
+}
+@media (max-width: 1578px){
+    .contact-detail{
+        color: #fc6b13;
+        font-size: 40px; 
+        margin-top: 30px;
+
+    }
+    .bed-type{
+        font-size: 35px;
+        margin-left: 5%;
+        margin-top: 15px;
+    }
+    .price-for{
+        margin-left: 5%;
+    }
+    .room-size{
+        margin-left: 5%;
+    }
+
+}
+@media(max-width: 1478px){
+    .contact-detail{
+        margin-left: 50px;
+    }
+    .call-to-book-btn{
+        width: 30%;
+        margin-left: 20%;
+    }
+    .room-detail h2{
+        color: #fc6b13;
+        font-size: 40px;
+        margin-left: 10%;
+        width: 30%;
+    }
+}
+@media(max-width: 1430px){
+    .container{
+        height: 1300px;
+        width: 80%;
+        margin-top: 0px;
+        margin-left: 15%;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        border: none;
+        box-shadow: 0 0 0 black;
+    }
+    .room-image{
+        height: 80%;
+    }
+    .room-detail h2{
+        color: #fc6b13;
+        font-size: 50px;
+        margin-left: 30%;
+        width: 70%;
+        margin-top: -10%;
+    }
+    .price-for{
+        font-size: 35px;
+        margin-left: 5%;
+        margin-top: 5%;
+
+    }
+    .price-for, .bed-type, .room-size, .call{
+        width: 70%;
+    }
+
+}
+@media (max-width: 1278px){
+    .room-image{
+        transform: scale(0.8);
+        z-index: 1;
+        margin-left: -10%;
+    }
+    nav{
+        z-index: 18;
+    }
+    .room-detail h2{
+        margin-top: -15%;
+    }
+    .container{
+        overflow-x: visible;
+    }
+}
+@media (max-width: 1050px) {
+    .room-image{
+        margin-left: -18%;
+    }
+    .room-detail h2{
+        margin-top: -20%;
+    }
+}
+@media (max-width: 962px) {
+    .room-image{
+        margin-left: -25%;
+    }
+    nav{
+        z-index: 18;
+    }
+    .room-detail h2{
+        margin-top: -25%;
+        margin-left: 100px; 
+    }
+}
+@media (max-width: 898px) {
+    .room-image{
+        margin-left: -30%;
+    }
+
+}
+@media (max-width: 822px) {
+
+    .room-image{
+        transform: scale(0.8);
+        z-index: 1;
+        margin-left: -30%;
+    }
+}
+@media(max-width: 678px){
+    .bed-type{
+        width: 100%;
+    }
+    .room-detail h2{
+        width: 90%;
+        margin-top: -34%;
+    }
+}
+@media(max-width: 538px){
+    .call-to-book-btn{
+        width: 50%;
+        height: 70px;
+    }
+    .room-detail h2{
+        width: 100%;
+        margin-top: -44%;
+        font-size: 55px;
+    }
+    .price-for{
+        width: 100%;
+    }
+}
+@media(max-width: 466px){
+    .room-detail h2{
+        width: 140%;
+    }
+    .bed-type, .room-size{
+        width: 130%;
+    }
+    .call-to-book-btn{
+        width: 80%;
+        font-size: 27px;
+        margin-bottom: 20px;
+    }
+    
+}
+@media(max-width: 352px){
+    .room-detail h2{
+        width: 170%;
+    }
+    
+}
+@media(max-width: 330px){
+    .price-for, .bed{
+        width: 150%;
+    }
+}
